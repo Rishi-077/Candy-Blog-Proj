@@ -1,0 +1,68 @@
+body {
+    background-color: #ffe5d9;
+    font-family: 'Courier Prime', monospace;
+    font-family: 'Roboto Slab', serif;
+}
+
+#mainnavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#navlink {
+    list-style-type: none;
+}
+
+#mainnavbar .navbar-brand {
+    color: #f72585;
+}
+
+#mainnavbar .nav-link {
+    color: white;
+}
+
+#mainnavbar .nav-link:hover {
+    color:#f72585;
+}
+
+section #bodysec {
+    padding-top: 50px;
+}
+
+#sectionhead span {
+    color: #f72585;
+}
+
+#sectionhead h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.blurb h2 {
+    color: #f72585;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #f72585;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.navbar.scrolled {
+    background-color: mediumorchid;
+    transition: background 500ms;
+}
+@media (max-width: 1278px) {
+    #sectionhead h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    } 
+
+}
